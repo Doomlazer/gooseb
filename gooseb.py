@@ -2,6 +2,8 @@ import os
 import json
 import random
 
+pageStack = []
+
 def doPage(data,page):
     # banner text
     os.system('clear')
@@ -16,9 +18,11 @@ def doPage(data,page):
     # get input
     np = input(str('\x1b[36m') + "Enter page # or help: " + str('\x1b[0m'))
     try: 
-        if (str(np) == "quit"):
+        if (str(np).lower() == "quit" or str(np).lower() == "q"):
             quit()
-        elif (str(np) in data["namedPages"]):
+        elif ((str(np).lower() == "prev" or str(np).lower() == "p") and len(pageStack) > 0):
+            next = pageStack.pop()
+        elif (str(np).lower() in data["namedPages"]):
             next = np
         elif (int(np) > 0 and int(np) <= data["length"]):
             next = np
@@ -26,7 +30,8 @@ def doPage(data,page):
             next = page
     except ValueError:
         next = page
-    # show selected page
+    if (not str(np).lower() == "prev") or (not str(np).lower() == "p"):
+        pageStack.append(page)
     doPage(data, next)
 
 
@@ -37,24 +42,28 @@ def run():
         quit()
     else:
         os.system('clear')
-        print("Give Yourself GooseBumps Book Reader")
+        print('\x1b[37m' + "Give Yourself GooseBumps Book Reader")
         print("By DoomLazer")
         print("Version 1.0 Nov. 2024")
-        print("")
+        print(str('\x1b[0m'))
         i = 1
         for book in books:
             print(str(i) + ") " + book)
             i += 1
         print("")
         b = input(str('\x1b[36m') + "Select book to load: " + str('\x1b[0m'))
-        if (int(b) < 1 or int(b) > len(books)):
-            print("Invalid selection.")
-            print("Goodbye...")
+        try:
+            if (int(b) < 1 or int(b) > len(books)):
+                print("Invalid selection.")
+                print("Goodbye...")
+                quit()
+            b = int(b) - 1
+            with open('./books/' + str(books[b])) as f:
+                data = json.load(f, strict=False)
+            doPage(data, data["firstPage"])
+        except ValueError:
+            print("Selection too spooky; killing program...")
             quit()
-        b = int(b) - 1
-        with open('./books/' + str(books[b])) as f:
-            data = json.load(f, strict=False)
-        doPage(data, data["firstPage"])
 
 if __name__ == "__main__":
 	run()

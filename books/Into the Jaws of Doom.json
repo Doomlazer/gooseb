@@ -3,8 +3,8 @@
 	"title":"Into the Jaws of Doom",
 	"length":238,
 	"firstPage":1,
-	"namedPages":["intro","cover","instructions","help","about","quit"],
-	"help":"Available commands: intro, cover, instructions, about",
+	"namedPages":["intro","cover","instructions","help","about"],
+	"help":"Available commands: intro, cover, instructions, about, prev, quit",
 	"cover":"###############%%#-:%*:+%%###########################################+=*#########*####%%= *#.=#%###*
 #####**********##*++#*+*##***********************######*=******#*#***++==+**+*+******##%= *#.-#%####
 ###++*#*########**#######**######**##**#**#*##******####=*=+=+*#+*==****+=-==++*+**#####+ =#.-#%####
@@ -428,22 +428,22 @@ Turn to # 212.
 	"4":
 "You head south and stumble out of the Maze of 
 Mirrors. 
+
 This is the way you came in! 
+
 It takes a while for the dizziness to go away. All 
 those reflecting images — so confusing! 
+
 From here, you can leave the Waves and Motion . 
 Room and head back into the main part of this floor. 
-Hither that, or brave the maze again. 
+Either that, or brave the maze again. 
 
 
 Leave the Waves and Motion Room? Turn to 
 # 194. 
-
 If you want to enter the Maze of Mirrors, check 
 to see if you have the compass. 
-
 The maze again, with the compass? Turn to #138. 
-
 The maze again, with no compass? Turn to #75. 
 ",
 	"5":
@@ -699,12 +699,15 @@ Swat them? Turn to # 8.
 Do you have the fire extinguisher? Turn to # 162. 
 ",
 	"18":
-"“Two. One. Liftoff!” the voice declares. # 18 
+"“Two. One. Liftoff!” the voice declares.
+
 The capsule rumbles and shakes. You grip your 
 seat tightly. You crash right through the ceiling 
 into the rooftop atrium, where the cafeteria is. Fi- 
 nally the thundering noise stops. 
+
 You glance out the window — and gasp. 
+
 The cafeteria is swarming with spiderlike aliens! 
 It turns out that the Hall of Incredible Science 
 is a giant intelligence test run by aliens. You 
@@ -719,12 +722,15 @@ GAME OVER
 ",
 	"19":
 "“To escape, you'll have to defeat the Super 
-Computer,” Peedee A. continues. 
-This is too weird! “How do I do that?” you ask. 
+Computer,” Peedee A. continues.
+
+This is too weird! “How do I do that?” you ask.
+
 “First, you'll have to get down to the second 
 floor. That’s where I am. But don’t use the eleva- 
 tors,” Peedee A. warns. “The Super Computer 
 controls them. It controls the whole building.” 
+
 “Great,” you moan. It’s as if the biggest bully in 
 school is out to get you. Times a million! 
 
@@ -2286,8 +2292,8 @@ puter has traced me. I have to go now! Bye.”
 The line goes dead. Now what? 
 
 
-Try the elevator again? Turn to #131. 
-Try the fire stairs? Turn to # 158. 
+Try the elevator again? Turn to # 131. 
+Try the fire stairs? Turn to # 153. 
 ",
 	"98":
 "A chemistry set! Maybe there’s something 
@@ -2342,7 +2348,7 @@ says.
 
 “What?” You frown, puzzled. “Who is this?” 
 
-“T sent you that message. But the Super Com- 
+“I sent you that message. But the Super Com- 
 puter caught me,” the voice explains. “Now that 
 you know its secret, it wants to kill you.” 
 
@@ -2353,7 +2359,7 @@ way?”
 
 “What kind of name is that?” you demand. 
 
-* “There’s no time to explain. You’re in terrible 
+“There’s no time to explain. You’re in terrible 
 danger!” 
 
 
@@ -2375,7 +2381,7 @@ more than a million dollars!
 You swallow nervously and peer into the micro- 
 scope again. 
 
-That’s funny. ... 
+That’s funny.... 
 
 
 Turn to # 68. 
@@ -2511,7 +2517,7 @@ A mosquito.
 But it’s over a foot long! 
 
 
-Turn to #151. 
+Turn to # 151. 
 ",
 	"109":
 "Your hand finally reaches the little computer. 
@@ -3348,9 +3354,12 @@ to # 161.
 ",
 	"153":
 "You head for the fire stairs. 
+
 The door is bright red. Next to the handle is a 
 big label that reads FOR EMERGENCY USE ONLY. 
+
 Well, you figure this is an emergency. 
+
 You reach for the door handle. 
 
 
@@ -3358,10 +3367,13 @@ Turn to # 125.
 ",
 	"154":
 "You decide to head north. 
+
 You walk about thirty paces before you reach 
 another junction. 
+
 Coming from the east is a strange glow. All the 
 mirrors in that direction flicker with pink light. 
+
 Further north or turn east? 
 
 

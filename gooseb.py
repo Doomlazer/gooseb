@@ -5,8 +5,13 @@ import random
 #   pip install pyttsx4
 # Also had to do:
 #   pip install py3-tts
-import pyttsx4
+try:
+    import pyttsx4                    
+except ImportError:
+    print("failed to load TTS")
+    noSpeech = True
 
+noSpeech = False
 pageStack = []
 
 def doPage(data,page,tts):
@@ -15,15 +20,17 @@ def doPage(data,page,tts):
     print(str('\x1b[31m') + str(data["banner"]))
     print(str('\x1b[36m') + data["title"] + str('\x1b[35m') + " Page: " + str(page) + str('\x1b[0m') + str("\n"))
     print(data[str(page)])
-    tts.say(data[str(page)])
-    tts.runAndWait()
+    if (not noSpeech):
+        tts.say(data[str(page)])
+        tts.runAndWait()
     # add dice roll
     if (str(page) + "roll" in data):
         r1 = random.randint(1, 6)
         r2 = random.randint(1, 6)
         print('\x1b[37m' + f"Rolled {r1} & {r2}. Total: {(r1 + r2)}" + str('\x1b[0m\n'))
-        tts.say(f"Rolled {r1} & {r2}. Total: {(r1 + r2)}")
-        tts.runAndWait()
+        if (not noSpeech):
+            tts.say(f"Rolled {r1} & {r2}. Total: {(r1 + r2)}")
+            tts.runAndWait()
     # get input
     np = input(str('\x1b[36m') + "Enter page # or help: " + str('\x1b[0m'))
     try: 
@@ -53,11 +60,13 @@ def run():
     else:
         os.system('clear')
         print('\x1b[37m' + "Give Yourself GooseBumps Book Reader Text to Speech")
-        engine.say("Give Yourself GooseBumps Book Reader. Text to speech edition")
-        engine.runAndWait()
+        if (not noSpeech):
+            engine.say("Give Yourself GooseBumps Book Reader. Text to speech edition")
+            engine.runAndWait()
         print("By DoomLazer")
-        engine.say("By Doom Laser")
-        engine.runAndWait()
+        if (not noSpeech):
+            engine.say("By Doom Laser")
+            engine.runAndWait()
         print("Version A1.0 Nov. 2024")
         print(str('\x1b[0m'))
         i = 1

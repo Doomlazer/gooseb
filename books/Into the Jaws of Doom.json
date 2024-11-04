@@ -4,7 +4,15 @@
 	"length":238,
 	"firstPage":1,
 	"namedPages":["intro","cover","instructions","help","about"],
-	"help":"Available commands: intro, cover, instructions, about, prev, quit",
+	"help":"Available commands:
+	intro - Story and game setup.
+	cover - Print an ASCII version of the book cover.
+	instructions - Game rules.
+	about - R.L.Stine bio.
+	prev - Move backward through page history.
+	quit - Exit this program.
+	
+	tts - Toggle text to speech if available (off by default).",
 	"cover":"###############%%#-:%*:+%%###########################################+=*#########*####%%= *#.=#%###*
 #####**********##*++#*+*##***********************######*=******#*#***++==+**+*+******##%= *#.-#%####
 ###++*#*########**#######**######**##**#**#*##******####=*=+=+*#+*==****+=-==++*+**#####+ =#.-#%####

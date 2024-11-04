@@ -19,7 +19,10 @@ def doPage(page):
     print(str('\x1b[36m') + data["title"] + str('\x1b[35m') + " Page: " + str(page) + str('\x1b[0m') + str("\n"))
     print(data[str(page)])
     if speak:
-        tts.say(data[str(page)])
+        d = data[str(page)]
+        if (str(page) + "speechtext" in data):
+            d = data[str(page) + "speechtext"]
+        tts.say(d)
         tts.runAndWait()
     # add dice roll
     if (str(page) + "roll" in data):

@@ -13,6 +13,8 @@
 	quit - Exit this program.
 	
 	tts - Toggle text to speech if available (off by default).",
+	"coverspeechtext":"An ASCII represntation of the book cover.
+	A dinosaur skeleton is prominently featured.",
 	"cover":"###############%%#-:%*:+%%###########################################+=*#########*####%%= *#.=#%###*
 #####**********##*++#*+*##***********************######*=******#*#***++==+**+*+******##%= *#.-#%####
 ###++*#*########**#######**######**##**#**#*##******####=*=+=+*#+*==****+=-==++*+**#####+ =#.-#%####
@@ -806,6 +808,18 @@ GAME OVER
 (Here’s a hint: You need the boomerang to beat 
 the robot arm. The boomerang is somewhere on 
 this floor.) 
+",
+	"23speechtext":
+"This is the second-floor map. Someone has 
+spray-painted on it in bloodred letters. You gulp 
+as you read the words. 
+
+Write down “MAP OF 2nd FLOOR AT # 23.” 
+When you come here to glance at the map, make 
+sure to remember where you came from. 
+
+
+If this is your first time here, turn to # 161. 
 ",
 	"23":
 "This is the second-floor map. Someone has 
@@ -4400,6 +4414,20 @@ trifying!
 Check out the electric toys? Turn to # 74. 
 Or leave the Electricity Room? Turn to # 13. 
 ",
+	"205speechtext":
+"This map shows the third floor. 
+
+You quickly sketch it into your notebook for 
+later use. If you ever need to refer to it again, turn 
+back to # 205. 
+
+Write down “MAP OF 3rd FLOOR AT # 205.” But 
+when you come here to glance at the map, make 
+sure to remember where you came from. 
+
+
+If this is your first time here, turn to # 194. 
+",
 	"205":
 "This map shows the third floor. 
 
@@ -4774,6 +4802,20 @@ Congratulations! But...
 
 GAME OVER! 
 ",
+	"220speechtext":
+"This map shows the fourth floor. 
+
+You quickly sketch it into your notebook for 
+later use. If you ever need to refer to it again, turn 
+back to # 220.                  
+                                                                                                    
+Write down “MAP OF 4th FLOOR AT # 220.” 
+But when you come here to glance at the map, 
+make sure to remember where you came from. 
+
+
+If this is your first time here, turn to # 166. 
+",
 	"220":
 "This map shows the fourth floor. 
 
@@ -4846,6 +4888,36 @@ make sure to remember where you came from.
 
 
 If this is your first time here, turn to # 166. 
+",
+	"221speechtext":
+"The PDA told you the Crash Code might be on 
+the abacus. With the code, you can turn off the Su- 
+per Computer — permanently! 
+
+The abacus looks like this: 
+
+The sign under it explains that the bottom row 
+represents ones, the middle row tens, and the top 
+row hundreds. 
+
+The number of beads slid toward the right indi- 
+cates each numeral in the number. The lone beads 
+to the left of the black bar are worth five times as 
+much as the beads to the right, if they’re slid over 
+to the bar. 
+
+There are two beads slid to the right on the top 
+row. The lone bead on the left isn’t slid over to the 
+bar. “That must mean the Crash Code is two- 
+hundred-and-something,” you mutter. “I think.” 
+
+Too bad math isn’t your best subject. 
+
+Can you read the rest of the abacus? If you can, 
+write down the Crash Code. You'll need it later. 
+
+
+When you've solved the abacus, turn to # 179. 
 ",
 	"221":
 "The PDA told you the Crash Code might be on 

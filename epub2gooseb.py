@@ -1,5 +1,7 @@
+
+import os
 import json
-#pip install bs4
+# pip install bs4
 from bs4 import BeautifulSoup
 # pip install EbookLib
 import ebooklib
@@ -17,6 +19,7 @@ def chapter_to_str(chapter):
     return '\n\n'.join(text) + '\n'
 
 def convert(f):
+    print("converting: " + f)
     book = epub.read_epub("./books/"+f)
     #creator = book.get_metadata('DC', 'creator')[0]
     title = book.get_metadata('DC', 'title')[0][0]
@@ -50,12 +53,17 @@ def convert(f):
     json_object = json.dumps(fileData, indent=4)
 
     # Write json file
-    with open("sample.json", "w") as outfile:
+    b = f.split('.')
+    with open("./books/" + b[0] + ".json", "w") as outfile:
         outfile.write(json_object)
 
 
 def run():
-    convert("spell.epub")
+    books = os.listdir("./books")
+    for book in books:
+        b = book.split('.')
+        if (b[1] == 'epub'):
+            convert(book)
 
 if __name__ == "__main__":
     run()

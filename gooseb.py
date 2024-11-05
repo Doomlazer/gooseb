@@ -75,8 +75,10 @@ def run():
         print(str('\x1b[0m'))
         i = 1
         for book in books:
-            print(str(i) + ") " + book)
-            i += 1
+            ex = book.split('.')
+            if (ex[1].lower() == 'json'):
+                print(str(i) + ") " + book)
+                i += 1
         print("")
         b = input(str('\x1b[36m') + "Select book to load: " + str('\x1b[0m'))
         try:

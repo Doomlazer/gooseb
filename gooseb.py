@@ -3,7 +3,7 @@ import json
 import random
 # Text to Speech requires:
 #   pip install py3-tts
-import pyttsx3                   
+import pyttsx3    
 
 speak = False
 pageStack = []
@@ -59,9 +59,7 @@ def doPage(page):
         pageStack.append(page)
     doPage(next)
 
-
 def run():
-    global noSpeech
     global data
     global tts
     tts = pyttsx3.init()

@@ -15,12 +15,13 @@ The following steps only need to be done once.
 1) Place GYG epub files in 'books' folder.
 2) `pip install EbookLib`
 3) `pip install bs4`
-4) Change to gooseb folder.
-5) `python3 epub2gooseb.py`
+4) `pip install py3-tts`
+5) Change to gooseb folder.
+6) `python3 epub2gooseb.py`
 
 ### Run gooseb.py
 
-6) `python3 gooseb.py`
+7) `python3 gooseb.py`
 
 The program should list any .json files in the 'books' folder of the user to load. This has been
 tested with GYG books 1-22.
@@ -33,8 +34,18 @@ versions still avaialbe on archive.org eventually.
 
 Special edition features are still a work in progress.
 
+### Built in commands
+
+Toggle the text-to-speech feature on and off with the in-game command: `tts`
+
+To step backwards thgough the page history use: `prev` or `p`
+
+To exit the program use: `quit`
+
 
 ## GOOSEB Reader JSON format
+
+The following is only relevant for users who want to edit or create their own gamebooks.
 
 ### Each book is required to have the following keys:
 

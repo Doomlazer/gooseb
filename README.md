@@ -1,12 +1,11 @@
 # gooseb
 Minimalist reader for the Give Yourself Goosebumps gamebook series.
 
-## Useage
+## The books
 
-epub2gooseb.py is a utility that will convert the original 22 Give Yourself Goosebumps books
-from epub to the custom json format this reader uses. These files are not included with the 
-project as Scholastic has issued copyright strikes against these files when hosted on archive.org.
-Users must source the epub files themselves.
+epub2gooseb.py is a python utility that converts the original 22 Give Yourself Goosebumps books
+from epub format to the json file this reader uses. The epub files are not included with the 
+project because you can buy them here: https://www.amazon.com/Give-Yourself-Goosebumps-41-book-series/dp/B07VXPL67N. Only the first 22 books are available out of 41. Let me know if you find the others.
 
 ### Convert epub to gooseb format
 
@@ -19,33 +18,32 @@ The following steps only need to be done once.
 5) Change to gooseb folder.
 6) `python3 epub2gooseb.py`
 
-### Run gooseb.py
+### Read the books with gooseb.py
 
 7) `python3 gooseb.py`
 
-The program should list any .json files in the 'books' folder of the user to load. This has been
-tested with GYG books 1-22.
+## Special Editions
 
-There are also special edition books in the GYG series with additional features, like dice rolls.
-The special edition book 'Into the Jaws of Doom' has been included with the project files 
-as the special editions did not recieve a copyright strike on archive.org from Scholastic. This file
-may need to be removed (if requested by Scholatic), otherwise I will eventually add the other special edition
-versions still avaialbe on archive.org eventually. 
+There are eight special edition books in the GYG series. They have additional game rules, such as 
+dice roll events and Inventory items. The special edition book 'Into the Jaws of Doom' has been included
+here as a preservation effort - the special editions didn't seem to recieve epub releases.
 
-Special edition features are still a work in progress.
+Note: the special edition epub files on archive.org are not compatible with epub2gooseb.py. They are 
+epub versions of an OCR scan of the book - these versions have a lot of errors in the text and don't
+share the same format as the Scholastic epubs.
+
+Special edition features are still a work in progress. 
 
 ### Built in commands
 
 Toggle the text-to-speech feature on and off with the in-game command: `tts`
 
-To step backwards thgough the page history use: `prev` or `p`
+To step backwards through the page history use: `prev` or `p`
 
 To exit the program use: `quit`
 
 
 ## GOOSEB Reader JSON format
-
-The following is only relevant for users who want to edit or create their own gamebooks.
 
 ### Each book is required to have the following keys:
 
@@ -64,10 +62,12 @@ The following is only relevant for users who want to edit or create their own ga
 Non-numbered pages must be added to the 'namedPages' key to be accessable.
 Example key: "namedPages":["intro","cover","instructions","help","about"],
 
-### Additionl keys:
+### other keys:
 
 Dice rolls can be added to the end of a page by creating a json key with
 the format: pageNumber + "roll". 
 
 Example: a key of "230roll" exisits in the file, it will add a dice roll the bottom
 of page number 230. The value of the key is not currently read and can be anything.
+
+

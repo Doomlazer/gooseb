@@ -3,7 +3,7 @@ import json
 import random
 # Text to Speech requires:
 #   pip install py3-tts
-import pyttsx3    
+import pyttsx3 
 
 speak = False
 pageStack = []
@@ -63,7 +63,15 @@ def run():
     global data
     global tts
     tts = pyttsx3.init()
-    books = os.listdir("./books")
+    dirList = os.listdir("./books")
+    books = []
+    for l in dirList:
+        # filter out hidden files
+        if not l[0] == ".":
+            # and files not ending with .json
+            split = l.split(".")
+            if split[len(split) - 1].lower() == 'json':
+                books.append(l)
     if len(books) < 1:
         print("No books found. Add .JSON files to 'books' folder and try again")
         quit()
@@ -75,17 +83,16 @@ def run():
         print(str('\x1b[0m'))
         i = 1
         for book in books:
-            ex = book.split('.')
-            if (ex[1].lower() == 'json'):
-                print(str(i) + ") " + book)
-                i += 1
-        print("")
+            print(str(i) + ") " + book)
+            i += 1
+        print()
         b = input(str('\x1b[36m') + "Select book to load: " + str('\x1b[0m'))
         try:
             if (int(b) < 1 or int(b) > len(books)):
                 print("Invalid selection.")
                 print("Goodbye...")
                 quit()
+
             b = int(b) - 1
             with open('./books/' + str(books[b])) as f:
                 data = json.load(f, strict=False)

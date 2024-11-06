@@ -59,11 +59,14 @@ def convert(f):
 
 
 def run():
-    books = os.listdir("./books")
-    for book in books:
-        b = book.split('.')
-        if (b[1] == 'epub'):
-            convert(book)
+    dirList = os.listdir("./books")
+    for l in dirList:
+        # filter out hidden files
+        if not l[0] == ".":
+            # and files not ending with .json
+            split = l.split(".")
+            if split[len(split) - 1].lower() == 'epub':
+                convert(l)
 
 if __name__ == "__main__":
     run()

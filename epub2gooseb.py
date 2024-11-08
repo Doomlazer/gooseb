@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings(action='ignore', category=FutureWarning)
 warnings.filterwarnings(action='ignore', category=UserWarning)
 
-booksPath = os.path.dirname(os.path.realpath(__file__)) + '/books'
+booksPath = os.path.dirname(os.path.realpath(__file__)) + '/books/'
 
 def chapter_to_str(chapter):
     soup = BeautifulSoup(chapter.get_body_content(), 'html.parser')

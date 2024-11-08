@@ -5,7 +5,7 @@ import random
 #   pip install py3-tts
 import pyttsx3 
 
-booksPath = os.path.dirname(os.path.realpath(__file__)) + '/books'
+booksPath = os.path.dirname(os.path.realpath(__file__)) + '/books/'
 speak = False
 pageStack = []
 data = []

@@ -91,7 +91,7 @@ def convert(f):
 
 
 def run():
-    dirList = os.listdir("./books")
+    dirList = os.listdir(booksPath)
     for l in dirList:
         # filter out hidden files
         if not l[0] == ".":

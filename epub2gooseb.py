@@ -71,7 +71,7 @@ def convert(f):
     fileData['length'] = len(chapters)
     fileData['namedPages'] = namedPages
     fileData['help'] = "Commands: description, prev, quit"
-    fileData['firstPage'] = 'description'
+    fileData['firstPage'] = '1'
     
     for x in range(len(entries)):
         fileData[x-7 if se else x] = str(entries[x])

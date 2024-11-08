@@ -5,6 +5,7 @@ import random
 #   pip install py3-tts
 import pyttsx3 
 
+booksPath = os.path.dirname(os.path.realpath(__file__)) + '/books'
 speak = False
 pageStack = []
 data = []
@@ -64,7 +65,8 @@ def run():
     global data
     global tts
     tts = pyttsx3.init()
-    dirList = os.listdir("./books")
+    #dirList = os.listdir("./books")
+    dirList = os.listdir(booksPath)
     books = []
     for l in dirList:
         # filter out hidden files
@@ -95,7 +97,7 @@ def run():
                 quit()
 
             b = int(b) - 1
-            with open('./books/' + str(books[b])) as f:
+            with open(booksPath + str(books[b])) as f:
                 data = json.load(f, strict=False)
             doPage(data["firstPage"])
         except ValueError as e:

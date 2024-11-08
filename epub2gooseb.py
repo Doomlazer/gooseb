@@ -11,6 +11,8 @@ import warnings
 warnings.filterwarnings(action='ignore', category=FutureWarning)
 warnings.filterwarnings(action='ignore', category=UserWarning)
 
+booksPath = os.path.dirname(os.path.realpath(__file__)) + '/books'
+
 def chapter_to_str(chapter):
     soup = BeautifulSoup(chapter.get_body_content(), 'html.parser')
     text = [para.get_text() for para in soup.find_all('p')]
@@ -21,11 +23,11 @@ def chapter_to_str(chapter):
 def SEchapter_to_str(chapter):
     soup = BeautifulSoup(chapter.get_content(), 'html.parser')
     text = [para.get_text() for para in soup.find_all('p')]
-    return '\n\n'.join(text)[2:] + '\n'
+    return ' '.join(text)[2:] + '\n'
 
 def convert(f):
     print("converting: " + f)
-    book = epub.read_epub("./books/"+f)
+    book = epub.read_epub(booksPath + f)
     #creator = book.get_metadata('DC', 'creator')[0]
     title = book.get_metadata('DC', 'title')
     namedPages = ["help","description"]
@@ -84,7 +86,7 @@ def convert(f):
     json_object = json.dumps(fileData, indent=4)
 
     # Write json file
-    with open("./books/" + f[:-5] + ".json", "w") as outfile:
+    with open(booksPath + f[:-5] + ".json", "w") as outfile:
         outfile.write(json_object)
 
 

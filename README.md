@@ -7,6 +7,10 @@ epub2gooseb.py is a python utility that converts the original 22 Give Yourself G
 from epub format to the json file this reader uses. The epub files are not included with the 
 project because you can buy them here: https://www.amazon.com/Give-Yourself-Goosebumps-41-book-series/dp/B07VXPL67N. Only the first 22 books are available out of 41. Let me know if you find the others.
 
+Added epub2gooseb.py support for converting the Special Edition Epub of "trapped in the circus of fear".
+It's a different epub format, but it seems to be a Scolastic version. You can download the .epub directly from
+Archive.org <a href="https://archive.org/download/give-yourself-goosebumps-special-edition/Give%20Yourself%20Goosebumps%20Special%20Edition/03.Trapped%20in%20the%20Circus%20of%20Fear.epub">here</a>. 
+
 ### Convert epub to gooseb format
 
 The following steps only need to be done once.

@@ -53,7 +53,8 @@ def doPage(page):
             next = np
         else:
             next = page
-    except ValueError:
+    except ValueError as e:
+        print("Error:" + str(e))
         next = page
     if (not str(np).lower() == "prev") or (not str(np).lower() == "p"):
         pageStack.append(page)
@@ -89,7 +90,7 @@ def run():
         b = input(str('\x1b[36m') + "Select book to load: " + str('\x1b[0m'))
         try:
             if (int(b) < 1 or int(b) > len(books)):
-                print("Invalid selection.")
+                print("Selected number not in range.")
                 print("Goodbye...")
                 quit()
 
@@ -97,8 +98,8 @@ def run():
             with open('./books/' + str(books[b])) as f:
                 data = json.load(f, strict=False)
             doPage(data["firstPage"])
-        except ValueError:
-            print("Selection too spooky; killing program...")
+        except ValueError as e:
+            print("Error: " + str(e))
             quit()
 
 if __name__ == "__main__":

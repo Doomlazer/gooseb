@@ -1,0 +1,135 @@
+{
+	"banner":"Doomlazer's Give Yourself Goosebumps parody",
+	"title":"Of Mice and Men",
+	"length":238,
+	"firstPage":1,
+	"namedPages":["intro","cover","instructions","help","about"],
+	"help":"Available commands:
+	intro - Story and game setup.
+	cover - Print an ASCII version of the book cover.
+	instructions - Game rules.
+	about - DL's bio.
+	prev - Move backward through page history.
+	quit - Exit this program.
+	
+	tts - Toggle text to speech if available (off by default).",
+	"coverspeechtext":"An ASCII represntation of the book cover.
+	There is no cover",
+	"cover":"no cover",
+	"intro": 
+"BEWARE!! 
+DO NOT READ THIS 
+BOOK FROM 
+BEGINNING TO END! 
+
+
+ARE YOU READY FOR THE ULTIMATE 
+CHALLENGE? 
+
+
+It’s a whole new way to GIVE YOURSELF 
+GOOSEBUMPS. There’s only one way out! If you 
+don’t make all the right moves — in the right or- 
+der — you'll never see the light of day again. 
+
+
+
+
+SPECIAL EDITION #1 
+THE ULTIMATE CHALLENGE: 
+OF MICE AND MEN 
+",
+	"instructions":
+"
+You can't win if you don't play the game. Just be
+true to yourself and you can never fail.
+",
+	"-1":
+"The elevator finally stops on the top floor of the 
+Hall of Incredible Science. The doors slide open. 
+You step out and immediately the doors whiz shut 
+behind you. You gaze around. 
+
+There’s no one here. The whole hall must be 
+empty by now. But the back of your neck prickles. 
+You can feel an evil presence watching you. 
+
+How are you going to escape? 
+
+
+Try the elevator again? Turn to # 131. 
+Try to find a telephone? Turn to # 89. 
+",
+	"1":
+"The sun beats down on you as you wipe the sweat
+from your brow.
+
+\"Gosh... it sure is hot, George.\"
+
+\"It's the humiditiy that gets you\". you tell Lennie.
+
+You take the piece of staw from your mouth and care-
+lessly toss it into the Salinas river.
+
+You've been on the road for the last three days.
+Three days since you were run out of Weed because
+Lenn... well, sometimes Lennie just doesn't know 
+his own strength.
+
+Now you're hoping to find some work on the artichoke
+ranch. It will only be temporary until you and Lennie
+can save up enough money to by that Ten-acre plot of 
+farmland from an elderly couple you know.
+
+Turn to page # 2
+",
+	"2":"
+\"George, Tell it like me you done before.\", \"stammers\"
+your slow-witted friend, Lennie.
+
+You've been his suragate older brother for as long as you
+can remember. You keep him out of trouble. And he certainly
+has a penchant for getting into trouble. Some days the only
+thing keeping you going is the dream.
+
+\"Tell you what?\", you say knowing fullly well that what he
+means.
+
+\"about the rabbits.\"
+
+If you tell Lennie about the farm again, turn to page # 16
+If you decide to look for work, turn to page # 80
+",
+	"16":"
+\"You really get a kick out of it, don't you? OK.\"
+
+The fire crackles as you breifly pause before repeating
+your well-worn tale.
+
+\"Guys like us, that work on ranches, are the loneliest guys
+in the world. They got no family. They don’t belong no place.
+With us it ain’t like that. We got a future. We got somebody
+to talk to that gives a damn about us. We don’t have to sit
+in no bar room blowin’ in our jack jus’ because we got no
+place else to go. If them other guys gets in jail they can
+rot for all anybody gives a damn. But not us.
+
+Lennie broke in. “But not us! An’ why? Because… because I got
+you to look after me, and you got me to look after you, and 
+that’s why.”
+
+Turn to page # 37
+",
+	"37":"
+
+"
+	"about":
+"About Doomlazer 
+
+Doomlazer is the least popular author in America. 
+He is the creator of the KQIV: TBoR mod and co-creator
+of The SPR3, among other unpopular projects. He has 
+written more than 100 scary songs. DL lives in Portland,
+OR alone.
+"
+}

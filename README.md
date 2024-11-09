@@ -8,7 +8,7 @@ from epub format to the json file this reader uses. The epub files are not inclu
 project because you can buy them here: https://www.amazon.com/Give-Yourself-Goosebumps-41-book-series/dp/B07VXPL67N. Only the first 22 books are available out of 41. Let me know if you find the others.
 
 Added epub2gooseb.py support for converting the Special Edition Epub of "trapped in the circus of fear".
-It's a different epub format, but it seems to be a Scolastic version. You can download the .epub directly from
+It's a different epub format, but it seems to be a Scolastic version. You can download the .epub directly from archive.org using this link:
 Archive.org <a href="https://archive.org/download/give-yourself-goosebumps-special-edition/Give%20Yourself%20Goosebumps%20Special%20Edition/03.Trapped%20in%20the%20Circus%20of%20Fear.epub">here</a>. 
 
 ### Convert epub to gooseb format
@@ -64,7 +64,7 @@ To exit the program use: `quit`
 `firstPage` - the page displayed after loading a book. Examples: 1, 230, "about", etc..
 
 Non-numbered pages must be added to the 'namedPages' key to be accessable.
-Example key: "namedPages":["intro","cover","instructions","help","about"],
+Example: "namedPages":["intro","cover","instructions","help","about"],
 
 ### other keys:
 
@@ -73,5 +73,9 @@ the format: pageNumber + "roll".
 
 Example: a key of "230roll" exisits in the file, it will add a dice roll the bottom
 of page number 230. The value of the key is not currently read and can be anything.
+
+Alternate text can be read by the text to speech feature. Key format is [page] + speechtext. 
+
+Example: "coverspeechtext":"An ASCII represntation of the book cover.
 
 

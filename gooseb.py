@@ -10,14 +10,33 @@ speak = False
 pageStack = []
 data = []
 tts = None
+money = 0
+monied = []
+
+def doMoney():
+    print()
 
 def doPage(page):
+    global money
+    global monied
     global speak
     global data
     # banner text
     os.system('clear')
     print(str('\x1b[31m') + str(data["banner"]))
-    print(str('\x1b[36m') + data["title"] + str('\x1b[35m') + " Page: " + str(page) + str('\x1b[0m') + str("\n"))
+    print(str('\x1b[36m') + data["title"] + str('\x1b[35m') + " Page: " + str(page))
+    # money
+    if ("money" in data):
+        if (str(page) + "money" in data):
+            if not page in monied:
+                money += data[str(page) + "money"]
+                monied.append(page)
+                print(monied)
+
+        print(data["money"] + str(money) + str('\x1b[0m') + str("\n"))
+    else:
+        print(str('\x1b[0m') + str("\n"))
+
     print(data[str(page)])
     if speak:
         d = data[str(page)]
@@ -99,7 +118,7 @@ def run():
             b = int(b) - 1
             with open(booksPath + str(books[b])) as f:
                 data = json.load(f, strict=False)
-            doPage(data["firstPage"])
+            doPage(str(data["firstPage"]))
         except ValueError as e:
             print("Error: " + str(e))
             quit()

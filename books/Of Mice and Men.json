@@ -23,18 +23,13 @@ DO NOT READ THIS
 BOOK FROM 
 BEGINNING TO END! 
 
-
 ARE YOU READY FOR THE ULTIMATE 
 CHALLENGE? 
-
 
 It’s a whole new way to GIVE YOURSELF 
 GOOSEBUMPS. There’s only one way out! If you 
 don’t make all the right moves — in the right or- 
-der — you'll never see the light of day again. 
-
-
-
+der — you'll never work on a ranch again. 
 
 SPECIAL EDITION #1 
 THE ULTIMATE CHALLENGE: 
@@ -46,7 +41,6 @@ You can't win if you don't play the game. Just be
 true to yourself and you can never fail.
 ",
 	"1money":15.35,
-	"2money":-1.05,
 	"1":
 "The sun beats down on you as you wipe the sweat
 from your brow.
@@ -66,8 +60,7 @@ his own strength.
 Now you're hoping to find work on an artichoke farm
 you were told about. It will only be temporary until 
 you and Lennie can save up enough money to by that 
-ten-acre plot of farmland from an elderly couple you 
-know.
+plot of farmland from an elderly couple you know.
 
 Turn to page # 2
 ",
@@ -87,6 +80,14 @@ then others.
 If you tell Lennie about the farm again, turn to page # 16
 If you decide to look for work, turn to page # 80
 ",
+	"6":"
+Knowing full well that Aunt Clara had to stop giving 
+Lennie mice because they died from petting them too hard and 
+having just been run out of Weed for assaulting a woman, 
+you think it's a smart idea to promise Lennie a dog.
+
+
+",
 	"16":"
 \"You really get a kick out of it, don't you? OK.\"
 
@@ -95,11 +96,11 @@ your well-worn tale.
 
 \"Guys like us, that work on ranches, are the loneliest guys
 in the world. They got no family. They don’t belong no place.
-With us it ain’t like that. We got a future. We got somebody
-to talk to that gives a damn about us. We don’t have to sit
+With us it ain’t like that. We got a future. We got somebody 
+to talk to that gives a damn about us. We don’t have to sit 
 in no bar room blowin’ in our jack jus’ because we got no
 place else to go. If them other guys gets in jail they can
-rot for all anybody gives a damn. But not us.
+rot for all anybody gives a damn. But not us.\"
 
 Lennie broke in. “But not us! An’ why? Because… because I got
 you to look after me, and you got me to look after you, and 
@@ -107,7 +108,60 @@ that’s why.”
 
 Turn to page # 37
 ",
+	"25":"
+Throwing away the mouse sends Lennie in to an uncontrollable
+rage. You've never seen such a look of pure hatred before;
+especially from usually kind-hearted Lennie.
+
+\"That was mine George! You've done a bad thing.\"
+
+Lennie brings one of his basket ball sized fists down on your
+skull. You drop to you knees, fighting to remain conscious.
+
+\"Bad, bad, bad... It was my mouse\"
+
+This time Lennie raises both fists above his head. You
+futilely try to block the attack with your forearms, but
+Lennie crushes your head like a watermelon at a Ghalager
+comedy show.
+
+GAME OVER
+",
+	"37roll":"",
 	"37":"
+You notice Lennie fidgeting with something in his coat pocket.
+
+\"Now, what you got there, Lennie.\"
+
+\"I don't have anything. I never done nothing.\", protests
+Lennie.
+
+\"Come on now. Give it here.\"
+
+Lennie's been keeping a dead mouse in his pocket. a patch
+of fur on it's back has been rubbed away and the mouse's
+neck apears to be broken. You throw the rotting mouse into
+the woods.
+
+Roll the two dice.
+
+If they add up to 8 or higher, go to # 41.
+If they add up to 7 or lower, go to # 25. 
+",
+	"41":"
+Lennie bursts into tears and begins blubbering about the
+dead mouse. You'd almost feel sorry for the guy if it 
+hadn't been actively decomposing.
+
+\"Now, I wasn't taking it away for meanness. That mouse
+wasn't fresh, Lennie. Tell you what I'll do. First chance
+I get, I'll get ya a puppy. That'd be better than mice.
+You can pet em harder.\"
+
+If you really believe giving Lennie a puppy is a good
+idea, turn to page # 6.
+If you were only saying it to stop the crying, turn to 
+page # 55.
 ",
 	"about":
 "About Doomlazer 

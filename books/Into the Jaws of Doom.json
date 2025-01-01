@@ -540,6 +540,7 @@ The Tesla coil? Turn to #191.
 The electric toys? Turn to # 74. 
 Leave the Electricity Room? Turn to # 13. 
 ",
+	"12roll":"",
 	"12":
 "You steer back toward the runway. The airport 
 appears in front of you. This looks so real, you think. 
@@ -560,7 +561,7 @@ Can you land the plane? Roll to find out.
 If you roll 7 or higher, go to # 10. 
 If you roll 6 or lower, go to # 174. 
 ",
-	"12roll":"",
+	"13roll":"",
 	"13":
 "You're about to leave the Electricity Room 
 when you notice something different about it. 
@@ -583,7 +584,6 @@ Can you make it to the door? Roll to find out.
 If you roll 9 or higher, go to # 116. 
 Tf you roll 8 or lower, go to # 197. 
 ",
-	"13roll":"",
 	"14":
 "You spray the snake with your extinguisher. It 
 hisses angrily as the cold gas plays across it. 
@@ -902,6 +902,7 @@ exting —”
 Turn to # 24. 
 
 ",
+	"27roll":"",
 	"27":
 "The roaring increases. Water starts to roll down 
 the stairs. In seconds, it’s as if you’re standing in a 
@@ -921,7 +922,6 @@ Can you make it to the door? Roll to find out.
 Tf you roll 8 or higher, go to # 139. 
 If you roll 7 or lower, go to # 175. 
 ",
-	"27roll":"",
 	"28":
 "It looks like a man, except for one thing — 
 
@@ -1666,6 +1666,7 @@ Or should you just keep running?
 . Try the fire stairs? Turn to # 21. 
 Keep running? Turn to # 78. 
 ",
+	"66roll":"",
 	"66":
 "You keep running. 
 
@@ -1680,7 +1681,6 @@ Can you make it to the doors? Roll to find out.
 If you roll 7 or higher, go to # 181. 
 If you roll 6 or lower, go to # 42. 
 ",
-	"66roll":"",
 	"67":
 "There must be something on this floor that will 
 help you open the fire door. Something that will 
@@ -2432,8 +2432,9 @@ You shake your head. Is this machine your
 friend Peedee A.? 
 
 
-Turn to # 45. 
+Turn to # 45.
 ",
+	"106roll":"",
 	"106":
 "The voice keeps talking. You feel yourself relax- 
 ing more and more. The pendulum swings back 
@@ -2452,7 +2453,6 @@ Can you stay awake? Roll to find out.
 If you roll 7 or higher, go to # 185. 
 If you roll 6 or lower, go to # 86. 
 ",
-	"106roll":"",
 	"107":
 "Youre still in the virtual world. A tiny elf girl is 
 perched on the rubble in front of you. 
@@ -2821,6 +2821,7 @@ But then you hear a terrifying sound.
 
 Turn to # 143. 
 ",
+	"125roll":"",
 	"125":
 "ZAAAAAAAP! 
 
@@ -2839,7 +2840,6 @@ Can you let go of the door? Roll to find out.
 If you roll 8 or higher, go to # 38. 
 If you roll 7 or lower, go to # 188. 
 ",
-	"125roll":"",
 	"126":
 "Between you and the doors looms the giant mo- 
 torized skeleton of a Giganotosaurus. It’s standing 
@@ -2916,6 +2916,7 @@ Which will it be?
 South? Turn to # 146. 
 East? Turn to # 219. 
 ",
+	"130roll":"",
 	"130":
 "You cock your arm back and get ready to throw. 
 You just hope you make it. That arm looks as if 
@@ -2926,7 +2927,7 @@ Can you hit the switch? Roll to find out.
 Tf you roll 7 or higher, go to # 69. 
 Tf you roll 6 or lower, go to # 30. 
 ",
-	"130roll":"",
+	"131roll":"",
 	"131":
 "You push the DOWN button for the elevator. 
 
@@ -2946,7 +2947,6 @@ Can you grab hold of the cable? Roll to find out.
 If you roll 9 or higher, go to # 180. 
 If you roll 8 or lower, go to # 84. 
 ",
-	"131roll":"",
 	"132":
 "The little electric dinosaurs start to stalk to- 
 ward you! 
@@ -3651,6 +3651,7 @@ After all, anything is better than nothing!
 
 Check out the map on # 205. Then turn to # 194. 
 ",
+	"170roll":"",
 	"170":
 "You reach your hand nervously into the spin- 
 ning wheels and gears. 
@@ -3669,7 +3670,6 @@ from your roll.
 If you roll 7 or higher, go to # 5. 
 If you roll 6 or lower, go to # 109. 
 ",
-	"170roll":"",
 	"171":
 "You decide that the idea is just too risky. 
 But you do spot something that might be useful 
@@ -3687,6 +3687,7 @@ you?
 
 Turn to # 108. 
 ",
+	"172roll":"",
 	"172":
 "You bend down and shove at the base of the 
 Tesla coil. 
@@ -3711,7 +3712,6 @@ Can you escape the lightning? Roll to find out.
 If you roll 8 or higher, go to # 204. 
 If you roll 7 or lower, go to # 90. 
 ",
-	"172roll":"",
 	"173":
 "You decide to head east. 
 
@@ -3865,6 +3865,7 @@ now. Turn to # 89.
 If you’ve already tried the phone, turn to # 220 
 and check out the map. 
 ",
+	"181roll":"",
 	"181":
 "You run as fast as you can. The doors are almost 
 within reach. You’ve made it! 
@@ -3886,7 +3887,6 @@ subtract one from your roll.
 If you roll 6 or higher, go to # 3. 
 Tf you roll 5 or lower, go to # 42. 
 ",
-	"181roll":"",
 	"182":
 "You decide to make a smoke bomb. Maybe you 
 can sneak past the Visible Man under a cloud of 

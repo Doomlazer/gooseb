@@ -78,15 +78,67 @@ then others.
 \"about the rabbits.\"
 
 If you tell Lennie about the farm again, turn to page # 16
-If you decide to look for work, turn to page # 80
+If you decide to put Lennie down, turn to page # 80
+",
+	"3money":3.11,
+	"3":"
+Eventually, you and Lennie arrive at the job site. Nothing
+much happens besides back breaking labor, poor conditions and
+meager wages. You get by on hopes for the future, but deep
+down you know they are unfounded. 
+
+Inevitably, one seasonal position took the place of another, 
+and another ad infinitum. Eventualy, you die at work.
+
+GAME OVER
 ",
 	"6":"
-Knowing full well that Aunt Clara had to stop giving 
-Lennie mice because they died from petting them too hard and 
-having just been run out of Weed for assaulting a woman, 
-you think it's a smart idea to promise Lennie a dog.
+Despite knowing full well that Aunt Clara had to stop giving 
+Lennie mice because they died from petting them too hard, and
+not to mention he just caused you to be run out of Weed after
+assaulting a woman, you still believe it's a good idea to 
+promise Lennie a dog.
 
+You mentaly take note of your intention to do so.
 
+Turn to page # 55
+",
+	"7":"
+Lennie jolts in suprise as the mouse gnaws at the flesh of his
+thumb. Instictivly, he smashes his fist into the rodent, and
+thankfully so.
+
+It turns out the mouse was on an alien scouting mission from
+another galaxy looking for inhabited planets to conquer. When
+the mouse never reported Earth as a prime target, it was spared
+from invasion.
+
+YOU WIN
+",
+	"9":"
+Continuing down the road, you notice a cat basking in the sunlight
+shining between the trees on the road.
+
+Before Lennie notices you bark the order, \"Tie your damn shoe, 
+Lennie!\".
+
+While distracted, you scare off the cat with a qick toss of a rock in
+general direction. A better fate for the feline than Lennie getting
+wind of it.
+
+Turn to page # 33
+",
+	"13":"
+Lennie doesn't notice the bite as he caresses the rodent with
+his thum.
+
+\"I'll keep him in my pocket, George. Nobody has to know. I won't
+say nuthing.\"
+
+You allow him to keep the mouse for the time being and continue
+down the road towards the farm.
+
+turn to page # 33
 ",
 	"16":"
 \"You really get a kick out of it, don't you? OK.\"
@@ -108,6 +160,38 @@ that’s why.”
 
 Turn to page # 37
 ",
+	"18":"
+After Lennie calms down you resume the long walk to the farm.
+
+Along the way, Lennie and you got to talking. He asks which you
+prefer, dogs, cats or mice?
+
+If you prefer dogs, turn to page # 26
+If you prefer cats, turn to page # 9
+If you prefer mice, turn to page # 22
+",
+	"19":"
+\"BAD BIRD!\", asserts Lennie; reaching down to grab the hawk out
+of a low flutter with his massive left hand.
+
+A sick cruching sound could be heard as Lennie squeezed down on it.
+Shortly after, all life drained from the bird's eyes.
+
+The mouse scurried happily away as you continued down the road.
+You were already a day late for work, so needed to hurry.
+
+Turn to page # 33
+",
+	"22":"
+A bit down along the road you encounter in the roadway a small
+brown mouse chewing on bit of moldy cheese.
+
+Suddenly a Hawk swoops down attacking the defensless mouse. The
+hawk fails to strike a killing blow and they scuffle awkwardly.
+
+If you tell Lennie to smash the hawk, turn to page # 19
+If you tell Lennie to bash the mouse, turn to page # 34
+",
 	"25":"
 Throwing away the mouse sends Lennie in to an uncontrollable
 rage. You've never seen such a look of pure hatred before;
@@ -126,6 +210,26 @@ Lennie crushes your head like a watermelon at a Ghalager
 comedy show.
 
 GAME OVER
+",
+	"26":"
+
+",
+	"33":"
+
+",
+	"34roll":"",
+	"34":"
+\"Lennie, you can have that mouse\", you shout with some
+urgency. Perhaps sensing the mouse is not what it seems.
+
+Knocking away the hawk and taking the mouse in his massive
+hands, Lennie is immediately bit. 
+
+
+Roll the two dice.
+
+If they add up to 7 or higher, go to # 7.
+If they add up to 6 or lower, go to # 13. 
 ",
 	"37roll":"",
 	"37":"
@@ -160,8 +264,29 @@ You can pet em harder.\"
 
 If you really believe giving Lennie a puppy is a good
 idea, turn to page # 6.
-If you were only saying it to stop the crying, turn to 
+If you were only saying it to stop his crying, turn to 
 page # 55.
+",
+	"55roll":"",
+	"55":"
+Roll the two dice.
+
+If they add up to 11 or higher, go to # 18.
+If they add up to 10 or lower, go to # 3.
+",
+	"80":"
+Having read the cliff notes in High School, you know
+Lennie just can't help but to kill. It's in his nature.
+
+Instructing him to look out across the Salinas river, you
+pause briefly after pointing your revolver to the back of
+Lennie's head.
+
+Will killing him just in turn create some sort of
+supernatural murder ghost? You think that's a risk
+you're just going to have to take.
+
+GAME OVER
 ",
 	"about":
 "About Doomlazer 

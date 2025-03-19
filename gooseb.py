@@ -68,16 +68,20 @@ def doPage(page):
         elif (str(np).lower() in data["namedPages"]):
             # matched namedPages
             next = np
+            pageStack.append(page)
         elif (int(np) > 0 and int(np) <= data["length"]):
-            # entry bounds
-            next = np
+            # check page is key in JSON
+            if (np in data):
+                next = np
+                pageStack.append(page)
+            else:
+                next = page
         else:
             next = page
     except ValueError as e:
         print("Error:" + str(e))
         next = page
-    if (not str(np).lower() == "prev") or (not str(np).lower() == "p"):
-        pageStack.append(page)
+    
     doPage(next)
 
 def run():
